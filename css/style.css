@@ -16,14 +16,7 @@
 }
 
 /*utilities*/
-*, *::after, *::before
-{
-   margin: 0;
-   padding: 0;
-   border: 0;
-   box-sizing: border-box;
-   overflow-x: hidden;
-}
+
 
 
 .heading-1
@@ -149,6 +142,9 @@ body {background: #F5F6FA; font-weight: bold; color: #858AA6; font-size: 20px;}
 .flip-card-back {background: white;transform: rotateY(180deg);}
 .flip-card-front {color: white;}
 .flip-card-back h4 {color: var(--primary-color)}
+
+
+
 
 
 /* Nav bar */
