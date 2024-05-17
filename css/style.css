@@ -16,24 +16,29 @@
 }
 
 /*utilities*/
-a
+*, *::after, *::before
 {
-    text-decoration: none;
-    border: none;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+   overflow-x: hidden;
 }
+
+
 .heading-1
 {
     font-family: raleway;
     font-weight: 800;
     color: var(--highlight-color);
-    padding: 1rem;
+    padding: .5rem;
 }
 .heading-1-under
 {
     font-family: raleway;
     font-weight: 400;
     color: var(--primary-color);
-    padding: 1rem;
+    padding: .1rem;
 }
 
 .heading-2
@@ -41,14 +46,14 @@ a
     font-family: Bebas Neue;
     font-weight: 600;
     color: var(--primary-color);
-    padding: 1rem;
+    padding: .5rem;
 }
 .heading-2-under
 {
     font-family: raleway;
     font-weight: 300;
     color: var(--secondary-color);
-    padding: 1rem;
+    padding: .1rem;
 }
 
 .simple-text-1
@@ -66,7 +71,6 @@ a
     color: var(--background-color);
 
 }
-
 
 .card
 {
@@ -87,6 +91,7 @@ a
 .wrap{
     flex-wrap: wrap;
 }
+
 
 /* Flip card 2 */
 body {background: #F5F6FA; font-weight: bold; color: #858AA6; font-size: 20px;}
@@ -147,3 +152,36 @@ body {background: #F5F6FA; font-weight: bold; color: #858AA6; font-size: 20px;}
 
 
 /* Nav bar */
+.nav-bg
+{
+    background: var(--primary-color);
+    background-image: url(../images/card-back.png);
+    background-position: center;
+    background-size: cover;
+    padding: .5rem 1.5rem 0 1.5rem ;
+
+}
+.link-dec
+{
+    padding: .5rem 1rem 0 1rem;
+    font-family: bebas neue;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    border-left: .3rem solid var(--text-color);
+}
+.link-dec:hover
+{
+    color: var(--highlight-color);
+    border-left: .3rem solid var(--highlight-color);
+}
+
+/* border */
+
+.circle
+{
+    border-radius: 90rem;
+    height: 12rem;
+    background-color: var(--primary-color);
+    margin: 0 1rem;
+
+}
