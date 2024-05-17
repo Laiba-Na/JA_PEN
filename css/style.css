@@ -6,6 +6,7 @@
     --third-color: #FFFFBA;
     --fourth-color: #BAFFC9;
     --secondary-color: #BAE1FF;
+    --highlight-color:#212223    ;
 
 
 }
@@ -96,10 +97,16 @@ body {background: #F5F6FA; font-weight: bold; color: #858AA6; font-size: 20px;}
   backface-visibility: hidden;
   z-index: 2;
   border-radius: 10px;
-  border:5px solid var(--primary-color)
+  border:5px solid var(--primary-color);
 }
 
-.flip-card-front {background: var(--primary-color)}
+.flip-card-front {
+    background: var(--primary-color);
+    background-image: url(../images/card-back.png);
+    background-position: center;
+    background-size: cover;
+    
+}
 .flip-card-back {background: white;transform: rotateY(180deg);}
 .flip-card-front {color: white;}
 .flip-card-back h4 {color: var(--primary-color)}
