@@ -1,58 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root{
 
 	--primary-color: #FFB3BA;
-	--background-color: white;
+	--background-color: #ffffff;
     --background2-color:#FFDFBA;
     --third-color: #FFFFBA;
     --fourth-color: #BAFFC9;
     --secondary-color: #BAE1FF;
     --highlight-color:#212223    ;
+    --text-color:#58ABAE;
 
 
 }
 
-/* FLip card 
-
-.flip-card {
-    perspective: 1000px;
+/*utilities*/
+a
+{
+    text-decoration: none;
+    border: none;
+}
+.heading-1
+{
+    font-family: raleway;
+    font-weight: 800;
+    color: var(--highlight-color);
+    padding: 1rem;
+}
+.heading-1-under
+{
+    font-family: raleway;
+    font-weight: 400;
+    color: var(--primary-color);
+    padding: 1rem;
 }
 
-.flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
+.heading-2
+{
+    font-family: Bebas Neue;
+    font-weight: 600;
+    color: var(--primary-color);
+    padding: 1rem;
+}
+.heading-2-under
+{
+    font-family: raleway;
+    font-weight: 300;
+    color: var(--secondary-color);
+    padding: 1rem;
 }
 
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
+.simple-text-1
+{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: var(--text-color);
+
 }
 
-.flip-card-front,
-.flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
+.simple-text-2
+{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: var(--background-color);
+
 }
 
-.flip-card-front {
-    background-color: #f8f9fa;
-    color: #000;
+.card
+{
+    box-shadow: 0.6rem 1rem 1.3rem rgba(0, 0, 0, 0.3);
+    border-radius: 2rem;
+    margin: 1rem;
 }
 
-.flip-card-back {
-    background-color: #343a40;
-    color: #000;
-    transform: rotateY(180deg);
+.flex-r
+{
+    display: flex;
 }
-
-.card-img-top {
-    max-height: 200px;
-    object-fit: cover;
-}*/
+.flex-c
+{
+    display: flex;
+    flex-direction: column;
+}
+.wrap{
+    flex-wrap: wrap;
+}
 
 /* Flip card 2 */
 body {background: #F5F6FA; font-weight: bold; color: #858AA6; font-size: 20px;}
@@ -110,3 +143,6 @@ body {background: #F5F6FA; font-weight: bold; color: #858AA6; font-size: 20px;}
 .flip-card-back {background: white;transform: rotateY(180deg);}
 .flip-card-front {color: white;}
 .flip-card-back h4 {color: var(--primary-color)}
+
+
+/* Nav bar */
