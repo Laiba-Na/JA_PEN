@@ -1,0 +1,82 @@
+#slideshow {
+    width:80rem;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+.container-my {
+    width:320rem; /* 300 x 4 */
+    position:relative;
+    -webkit-animation:slide 8s ease-in-out infinite;
+    -moz-animation:slide 8s ease-in-out infinite;
+    -ms-animation:slide 8s ease-in-out infinite;
+    -o-animation:slide 8s ease-in-out infinite;
+    animation:slide 8s ease-in-out infinite;
+}
+
+.container-my section {
+    width:80rem;
+    height:30rem;
+    float:left;
+}
+
+.container-my section:nth-child(1) {background-image:url(../images/cat2.4.jpg); background-position: center; background-size:cover; background-repeat: no-repeat;}
+.container-my section:nth-child(2) {background-image:url(../images/cat2.1.jpg); background-position: center; background-size:cover; background-repeat: no-repeat;}
+.container-my section:nth-child(3) {background-image:url(../images/cat4.3.jpg); background-position: center; background-size:cover; background-repeat: no-repeat;}
+.container-my section:nth-child(4) {background-image:url(../images/image2.jpg); background-position: center; background-size:cover; background-repeat: no-repeat;}
+
+.container-my:hover {
+   animation-play-state:paused;
+   -webkit-animation-play-state:paused;
+}
+
+@-webkit-keyframes slide {
+    0% {left:0;}
+    15% {left:-40rem;}
+    30% {left:-80rem;}
+    45% {left:-120rem;}
+    50% {left:-160rem;}
+    65% {left:-200rem;}
+    80% {left:-240rem;}
+    100% {left:0;}
+}
+@-moz-keyframes slide {
+    0% {left:0;}
+    15% {left:-40rem;}
+    30% {left:-80rem;}
+    45% {left:-120rem;}
+    50% {left:-160rem;}
+    65% {left:-200rem;}
+    80% {left:-240rem;}
+    100% {left:0;}
+}
+@-ms-keyframes slide {
+    0% {left:0;}
+    15% {left:-40rem;}
+    30% {left:-80rem;}
+    45% {left:-120rem;}
+    50% {left:-160rem;}
+    65% {left:-200rem;}
+    80% {left:-240rem;}
+    100% {left:0;}
+}
+@-o-keyframes slide {
+    0% {left:0;}
+    15% {left:-40rem;}
+    30% {left:-80rem;}
+    45% {left:-120rem;}
+    50% {left:-160rem;}
+    65% {left:-200rem;}
+    80% {left:-240rem;}
+    100% {left:0;}
+}
+@keyframes slide {
+    0% {left:0;}
+    15% {left:-40rem;}
+    30% {left:-80rem;}
+    45% {left:-120rem;}
+    50% {left:-160rem;}
+    65% {left:-200rem;}
+    80% {left:-240rem;}
+    100% {left:0;}
+}
