@@ -90,6 +90,27 @@
     flex-wrap: wrap;
 }
 
+.roundbut
+{
+   
+    width: 5rem;
+    height: 5rem;
+    border-radius: 3rem;
+}
+.buttons
+{
+    border: none;
+    background-color: var(--background-color);
+    box-shadow:.1rem .1rem .6rem .1rem rgba(0, 0, 0, .5);
+    transition: .2s ease-in-out;
+
+}
+.buttons:hover
+{
+    transform: scale(1.2);
+    border-radius: 1rem;
+}
+
 
 /* Flip card 2 */
 body {background: #F5F6FA; font-weight: bold; color: #858AA6; font-size: 20px;}
@@ -199,3 +220,4 @@ body {background: #F5F6FA; font-weight: bold; color: #858AA6; font-size: 20px;}
     translate: 0 -2rem;
 
 }
+
