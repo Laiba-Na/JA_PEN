@@ -17,6 +17,13 @@
 
 /*utilities*/
 
+.hov:hover
+{
+    transform: scale(1.1);
+}
+.hov{
+    transition: .2s ease-in-out;
+}
 
 
 .heading-1
