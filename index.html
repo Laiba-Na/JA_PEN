@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slider.css">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 
@@ -108,7 +109,7 @@
   </div>
   <br>
   <!-- text area -->
-  <div class="container" style="background-color: var(--background2-color); text-align:center">
+  <div class="container" style="background-color: var(--third-color); text-align:center">
     <div>
       <h1 class="heading-1">
         Look at all the variety!
@@ -121,11 +122,129 @@
       </p>
     </div>
   </div>
+
+
+  
+
+  <!-- Slidert area -->
+  <div class="container" style="overflow: hidden; height:30rem">
+    <div id="slideshow">
+      <div class="container-my">
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+      </div>
+    </div>
+  </div>
+
+
+  
   <!-- Jap to eng flip card -->
 
-  <div>
+  <div class="container card"
+    style="background-color:var(--highlight-color); background-image:url('images/card-back.png'); border-top: .5rem solid var(--primary-color)">
+
+
+
+    <div class="flip-card-3D-wrapper col-md-4">
+      <div class="flip-card" style="height: 11rem;">
+        <div class="flip-card-front">
+          <div class='card-body'>
+            <h1 class="heading-1">日本の文房具</h1>
+            <button class="flip-card-btn-turn-to-back btn btn-outline-dark ">English</button>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <div class='card-body'>
+            <h1 class="heading-1">Japenese stationary</h1>
+            <button class="flip-card-btn-turn-to-front btn btn-outline-dark ">Japenese</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </div>
+
+
+  <!-- questions area -->
+  <br>
+  <div class="container d-flex justify-content-center">
+    <!-- question 1 -->
+    <div>
+      <div class="card" style="background-color: var(--primary-color);">
+        <p class="heading-1">WHY IS JAPENESE stationary SO GOOD?</p>
+        <button id="fBut1" class="roundbut buttons"><i class="fa fa-plus"
+            style="margin:0;padding:0;font-size:3rem; color:var(--primary-color)"></i></button>
+      </div>
+      <div id="panel1" style="border-left: 2px solid var(--primary-color);padding-left:.3rem;display:none">
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti unde earum facere nobis velit iure
+          laboriosam vero nemo deserunt. Deserunt aliquid, voluptatibus accusantium nobis eligendi ipsam quia mollitia
+          est recusandae?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam iste eos animi itaque corporis
+          doloremque error nisi et, maiores exercitationem ex voluptates porro natus totam, veritatis adipisci
+          recusandae saepe laborum!</p>
+      </div>
+    </div>
+
+    <!-- question 2 -->
+    <div>
+      <div class="card" style="background-color: var(--primary-color);">
+        <p class="heading-1">WHY DO PEOPLE LIKE IT?</p>
+        <button id="fBut2" class="roundbut buttons"><i class="fa fa-plus"
+            style="margin:0;padding:0;font-size:3rem; color:var(--primary-color)"></i></button>
+      </div>
+      <div id="panel2" style="border-left: 2px solid var(--primary-color);padding-left:.3rem;display:none">
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti unde earum facere nobis velit iure
+          laboriosam vero nemo deserunt. Deserunt aliquid, voluptatibus accusantium nobis eligendi ipsam quia mollitia
+          est recusandae?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam iste eos animi itaque corporis
+          doloremque error nisi et, maiores exercitationem ex voluptates porro natus totam, veritatis adipisci
+          recusandae saepe laborum!</p>
+      </div>
+    </div>
+    <!-- question 3 -->
+    <div>
+      <div class="card" style="background-color: var(--primary-color);">
+        <p class="heading-1">HOW IT BECAME FAMOUS?</p>
+        <button id="fBut3" class="roundbut buttons"><i class="fa fa-plus"
+            style="margin:0;padding:0;font-size:3rem; color:var(--primary-color)"></i></button>
+      </div>
+      <div id="panel3" style="border-left: 2px solid var(--primary-color);padding-left:.3rem;display:none">
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti unde earum facere nobis velit iure
+          laboriosam vero nemo deserunt. Deserunt aliquid, voluptatibus accusantium nobis eligendi ipsam quia mollitia
+          est recusandae?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam iste eos animi itaque corporis
+          doloremque error nisi et, maiores exercitationem ex voluptates porro natus totam, veritatis adipisci
+          recusandae saepe laborum!</p>
+      </div>
+    </div>
+
+  </div>
+
+  <br>
+
+
+
+  <!-- catrgories-->
+  <br>
+  <br>
+  <div class="container " style="text-align: center;  border-top: .5rem solid var(--primary-color)">
+
+    <h1 class="heading-1 ">CATEGORIES</h1>
+  <p class="heading-1-under">Scroll down to hava e a look at the different categories we have:</p>
+
+</div>
+
+
+    <!-- catrgorie 1-->
+
+
+      <!-- catrgorie 2-->
+
+
+        <!-- catrgorie 3-->
+
+
+          <!-- catrgorie 4-->
 
 
 
@@ -231,15 +350,18 @@
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               <!-- Links -->
               <h6 class="text-uppercase fw-bold mb-4" style="color:var(--highlight-color);">Contact</h6>
-              <p style="color:var(--highlight-color);"><i class="fas fa-home me-3" style="color:var(--highlight-color);"></i> New
+              <p style="color:var(--highlight-color);"><i class="fas fa-home me-3"
+                  style="color:var(--highlight-color);"></i> New
                 York, NY 10012, US</p>
               <p style="color:var(--highlight-color);">
                 <i class="fas fa-envelope me-3"></i>
                 info@example.com
               </p>
-              <p style="color:var(--highlight-color);"><i class="fas fa-phone me-3" style="color:var(--highlight-color);"></i> +
+              <p style="color:var(--highlight-color);"><i class="fas fa-phone me-3"
+                  style="color:var(--highlight-color);"></i> +
                 01 234 567 88</p>
-              <p style="color:var(--highlight-color);"><i class="fas fa-print me-3" style="color:var(--highlight-color);"></i> +
+              <p style="color:var(--highlight-color);"><i class="fas fa-print me-3"
+                  style="color:var(--highlight-color);"></i> +
                 01 234 567 89</p>
             </div>
             <!-- Grid column -->
@@ -260,15 +382,39 @@
   </div>
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+
+  <script>
+
+    //jQuery
+    $(document).ready(function () {
+
+      $("#fBut1").click(function () {
+        $("#panel1").slideToggle("slow");
+      });
+      $("#fBut2").click(function () {
+        $("#panel2").slideToggle("slow");
+      });
+
+
+      $("#fBut3").click(function () {
+        $("#panel3").slideToggle("slow");
+      });
+    });
+
+  </script>
 
 </body>
 
