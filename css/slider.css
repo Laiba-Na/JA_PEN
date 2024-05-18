@@ -20,10 +20,10 @@
     float:left;
 }
 
-.container-my section:nth-child(1) {background-image:url(../images/cat2.4.jpg); background-position: center; background-size:cover; background-repeat: no-repeat;}
-.container-my section:nth-child(2) {background-image:url(../images/cat2.1.jpg); background-position: center; background-size:cover; background-repeat: no-repeat;}
-.container-my section:nth-child(3) {background-image:url(../images/cat4.3.jpg); background-position: center; background-size:cover; background-repeat: no-repeat;}
-.container-my section:nth-child(4) {background-image:url(../images/image2.jpg); background-position: center; background-size:cover; background-repeat: no-repeat;}
+.container-my section:nth-child(1) {background-image:url(../images/erasers.jpg); background-position: center; background-size:cover; background-repeat: no-repeat;}
+.container-my section:nth-child(2) {background-image:url(../images/book.jpg); background-position: center; background-size:cover; background-repeat: no-repeat;}
+.container-my section:nth-child(3) {background-image:url(../images/pens.jpg); background-position: center; background-size:cover; background-repeat: no-repeat;}
+.container-my section:nth-child(4) {background-image:url(../images/cat1.6.webp); background-position: center; background-size:cover; background-repeat: no-repeat;}
 
 .container-my:hover {
    animation-play-state:paused;
