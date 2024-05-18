@@ -1,13 +1,6 @@
 *{
     margin:0px;
     padding:0px;
-    box-sizing: border-box;
-    font-family: "Roboto",sans-serif;
-    --background2-color:#FFDFBA;
-    --third-color: #FFFFBA;
-    --fourth-color: #BAFFC9;
-    --text-color:white;
-
 }
     .about-us{
         text-align: center;
