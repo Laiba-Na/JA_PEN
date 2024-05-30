@@ -24,67 +24,73 @@
           <div class="flip-card-front">
 
             <div class='card-body'>
-              <h1 style="color: var(--highlight-color); overflow:hidden">SIGN UP</h1>
-              <br>
-              <form action="submit">
-                <div class="row">
-                  <div class="col">
-                    <input type="text" class="form-control" placeholder="Name" aria-label="Name">
-                  </div>
-                </div>
-                <br>
-                <br>
-                <div class="row">
-                  <div class="col">
-                    <input type="text" class="form-control" placeholder="Email" aria-label="Email">
-                  </div>
-                </div>
-                <br>
-                <br>
-                <div class="row" style="padding: 0 60px;">
-                  <input type="password" class="form-control" placeholder="password" aria-label="password">
-                </div>
-                <br>
-                <br>
-                <a href="html_folders/home.html"><button type="button" class="btn btn-outline-dark">SignUp</button></a>
-              </form>
-              <button class="flip-card-btn-turn-to-back btn btn-outline-dark">LogIn</button>
-            </div>
-          </div>
-          <div class="flip-card-back">
-            <div class='card-body'>
+
               <h1>LOGIN</h1>
               <br>
               <form action="submit">
                 <div class="row">
                   <div class="col">
-                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    <input id="firstn" type="text" class="form-control" placeholder="First name" aria-label="First name">
                   </div>
                   <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    <input id="lastn" type="text" class="form-control" placeholder="Last name" aria-label="Last name">
                   </div>
                 </div>
                 <br>
                 <br>
                 <div class="row">
                   <div class="col">
-                    <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+                    <input id="em" type="text" class="form-control" placeholder="Email" aria-label="Email">
                   </div>
                   <div class="col">
-                    <input type="text" class="form-control" placeholder="Phone no" aria-label="Phone">
+                    <input id="ph" type="text" class="form-control" placeholder="Phone no" aria-label="Phone">
                   </div>
                 </div>
                 <br>
                 <br>
                 <div class="row" style="padding: 0 60px;">
-                  <input type="password" class="form-control" placeholder="password" aria-label="password">
+                  <input id="pass" type="password" class="form-control" placeholder="password" aria-label="password">
                 </div>
                 <br>
                 <br>
-                <a href="html_folders/home.html"><button type="button" class="btn btn-outline-dark">LogIn</button></a>
+                
               </form>
 
-              <button class="flip-card-btn-turn-to-front btn btn-outline-dark ">SignUp</button>
+              <a class="flip-card-btn-turn-to-front "><button onclick="savedata()" class=" btn btn-outline-dark">SignUp</button></a>
+              
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <div class='card-body'>
+
+              <h1 style="color: var(--highlight-color); overflow:hidden">SIGN UP</h1>
+              <br>
+              <form action="submit">
+                <div class="row">
+                  <div class="col">
+                    <input type="text" id="Sfirstn" class="form-control" placeholder="Name" aria-label="Name">
+                  </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" id="Sem" class="form-control" placeholder="Email" aria-label="Email">
+                  </div>
+                </div>
+                <br>
+                <br>
+                <div class="row" style="padding: 0 60px;">
+                  <input type="password" id="Sastn" class="form-control" placeholder="password" aria-label="password">
+                </div>
+                <br>
+                <br>
+                <button onclick="sign()" type="button" class="btn btn-outline-dark">SignUp</button>
+              </form>
+              <button class="flip-card-btn-turn-to-back btn btn-outline-dark">LogIn</button>
+
+
+              
             </div>
           </div>
         </div>
@@ -103,6 +109,8 @@
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
+
+  <script src="js/login.js"></script>
 </div>
 </body>
 
