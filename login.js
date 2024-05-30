@@ -45,7 +45,7 @@ function savedata()
       else {
         if (firstName == Name && pass == Password && mail == Email) {
           alert('Login successfull, hi ' + Name );
-          window.location.href = "../html_folders/home.html"; 
+          window.location.href = "html_folders/home.html"; 
         } else {
           alert("Something is wrong");
         }
