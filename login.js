@@ -44,18 +44,21 @@ function savedata()
       } 
       else {
         if (firstName == Name && pass == Password && mail == Email) {
+
           alert('Login successfull, hi ' + Name );
-          window.location.href = "html_folders/home.html"; 
-        } else {
+
+          
+           window.location.href = "html_folders/user-prof.html";
+
+           
+         } 
+        else {
           alert("Something is wrong");
         }
       }
 
       //user profile update
-      var user = document.getElementById('user').value;
-      var ma = document.getElementById('Umail').value;
-      user.innerHTML = Name;
-      ma.innerHTML = Email;
+      
       
   }
 
