@@ -73,30 +73,30 @@
       <div class="mb-5 row">
         <div class="col">
           <label style="color:#0f7777; font-size: 1.5rem;"><b>First Name</b></label>
-          <input type="text" required maxlength="40" class="form-control" id="first_name" name="first_name">
+          <input type="text" required maxlength="40" class="form-control" id="FN" name="first_name">
         </div>
         <div class="col">
           <label style="color:#0f7777; font-size: 1.5rem"><b>Last Name</b></label>
-          <input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name">
+          <input type="text" required maxlength="50" class="form-control" id="LN" name="last_name">
         </div>
       </div>
       <div class="mb-5 row">
         <div class="col">
           <label for="email_addr" style="color:#0f7777; font-size: 1.5rem"><b>Email address</b></label>
-          <input type="email" required maxlength="50" class="form-control" id="email_addr" name="email"
+          <input type="email" required maxlength="50" class="form-control" id="EM" name="email"
             placeholder="name@example.com">
         </div>
         <div class="col">
           <label for="phone_input" style="color:#0f7777; font-size: 1.5rem"><b>Phone</b></label>
-          <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
+          <input type="tel" required maxlength="50" class="form-control" id="PH" name="Phone"
             placeholder="Phone">
         </div>
       </div>
       <div class="mb-5">
         <label for="message" style="color:#0f7777; font-size: 1.5rem"><b>Message</b></label>
-        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+        <textarea class="form-control" id="MS" name="message" rows="3"></textarea>
       </div>
-      <button type="submit" class="btn px-4 btn-lg btn-outline-dark">Submit</button>
+      <button type="submit" class="btn px-4 btn-lg btn-outline-dark" onclick="sendMail()">Submit</button>
       <br>
       <br>
 
