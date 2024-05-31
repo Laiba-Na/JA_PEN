@@ -17,3 +17,12 @@ backButtons.onclick = function() {
 cards[i].classList.toggle('do-flip')
  }  
 } 
+function sendMail(){
+    let parms={
+        firstname: document.getElementById("first_name").value,
+        lastname: document.getElementById("last_name").value,
+        email: document.getElementById("email_addr").value,
+        phone: document.getElementById("phone_input").value,
+    }
+    emailjs.send("service_iuepiwt","template_qir9sya",parms).then(alert("Contact Form Submitted!!!"))
+}
